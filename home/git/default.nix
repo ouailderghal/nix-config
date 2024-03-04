@@ -14,5 +14,18 @@
         tool = "${pkgs.meld}/bin/meld";
       };
     };
+
+    includes = [
+      {
+        contents = {
+          user = {
+            email = "ouail.derghal@imt-atlantique.fr";
+          };
+        };
+
+        condition = "gitdir:~/Projects/imt";
+      }
+    ];
+  
   };
 }
