@@ -112,6 +112,8 @@
     pass
     tig
     wget
+    zip
+    unzip
 
     # Shells
     zsh
