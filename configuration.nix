@@ -89,7 +89,7 @@
   users.users.ouail = {
     isNormalUser = true;
     description = "Ouail Derghal";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
   };
 
   # Allow unfree packages
@@ -127,12 +127,15 @@
     enableSSHSupport = true;
   };
 
-  # Enable Gnome keyring
+  # Enable Gnome keyring.
   services.gnome.gnome-keyring.enable = true;
   security.pam.services.lightdm.enableGnomeKeyring = true;
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = false;
+
+  # Enable Docker Engine.
+  virtualisation.docker.enable = true;
 
   system.stateVersion = "23.11";
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
