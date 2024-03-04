@@ -116,6 +116,7 @@
     zip
     unzip
     xclip
+    meld
 
     # Shells
     zsh
