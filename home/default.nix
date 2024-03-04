@@ -7,6 +7,7 @@
     ./i3
     ./git
     ./lf
+    ./texlive
   ];
     
   home.username = "ouail";
