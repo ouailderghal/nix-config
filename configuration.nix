@@ -97,18 +97,24 @@
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
+    # Programming tools
     gcc
     nodejs
     go
     gopls
     python3
-    neovim
-    zsh
-    wget
+    
+    # Command-line tools
     git
     tmux
+    neovim
     tree
     pass
+    tig
+    wget
+
+    # Shells
+    zsh
   ];
 
   # Enable BrowserPass
