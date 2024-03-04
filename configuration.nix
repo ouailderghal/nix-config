@@ -120,6 +120,12 @@
 
     # Shells
     zsh
+
+    # LibreOffice
+    libreoffice-qt
+    hunspell
+    hunspellDicts.en_US
+    hunspellDicts.fr-any
   ];
 
   # Enable BrowserPass
