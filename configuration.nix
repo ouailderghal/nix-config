@@ -115,6 +115,7 @@
     wget
     zip
     unzip
+    xclip
 
     # Shells
     zsh
