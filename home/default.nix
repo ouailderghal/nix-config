@@ -17,6 +17,7 @@
     brave
     tree
     discord
+    zotero
   
     (pkgs.nerdfonts.override { 
       fonts = [ "UbuntuMono" ]; 
