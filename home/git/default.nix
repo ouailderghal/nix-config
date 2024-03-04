@@ -23,7 +23,7 @@
           };
         };
 
-        condition = "gitdir:~/Projects/imt";
+        condition = "gitdir:~/Projects/imt/";
       }
     ];
   
