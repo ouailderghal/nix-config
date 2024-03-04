@@ -18,6 +18,7 @@
     brave
     tree
     discord
+    telegram-desktop
     zotero
   
     (pkgs.nerdfonts.override { 
