@@ -8,6 +8,7 @@
     ./git
     ./lf
     ./texlive
+    ./neovim
   ];
     
   home.username = "ouail";
