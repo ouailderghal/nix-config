@@ -19,6 +19,10 @@
       merge = {
         tool = "meld";
       };
+
+      diff = {
+        tool = "nvimdiff";
+      };
     };
 
     includes = [
