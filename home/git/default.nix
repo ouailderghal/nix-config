@@ -17,7 +17,7 @@
       };
 
       merge = {
-        tool = "${pkgs.meld}/bin/meld";
+        tool = "meld";
       };
     };
 
