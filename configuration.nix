@@ -117,6 +117,8 @@
     unzip
     xclip
     meld
+    onefetch
+    neofetch
 
     # Shells
     zsh
