@@ -16,6 +16,7 @@
 
   home.packages = with pkgs; [
     gh
+    glab
     brave
     tree
     discord
