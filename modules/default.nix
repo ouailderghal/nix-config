@@ -2,5 +2,6 @@
 {
   imports = [
     ./xorg.nix
+    ./virtualisation.nix
   ];
 }

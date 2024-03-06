@@ -16,7 +16,7 @@
     modules = [
       ./hardware-configuration.nix
       ./configuration.nix
-      ./modules/default.nix
+      ./modules
 
       home-manager.nixosModules.home-manager {
           home-manager.useGlobalPkgs = true;
