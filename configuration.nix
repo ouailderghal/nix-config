@@ -132,6 +132,7 @@
 
     # Other
     hugo
+    mutt
   ];
 
   # Enable BrowserPass
