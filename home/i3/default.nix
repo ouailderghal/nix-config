@@ -25,7 +25,7 @@ in {
 
       fonts = {
         names = ["UbuntuMono Nerd Font"];
-        style = "Bold";
+        style = "Regular";
         size = 12.0;
       };
 
@@ -105,7 +105,7 @@ in {
 
           fonts = {
             names = ["UbuntuMono Nerd Font"];
-            style = "Bold";
+            style = "Regular";
             size = 12.0;
           };
         }
