@@ -28,4 +28,8 @@
       SyncState *
     '';
   };
+
+  services.mbsync = {
+    enable = true;
+  };
 }
