@@ -3,12 +3,12 @@
   imports = [
     ./alacritty
     ./tmux
-    ./zsh
     ./i3
     ./git
     ./lf
     ./texlive
     ./neovim
+    ./shell
   ];
     
   home.username = "ouail";
