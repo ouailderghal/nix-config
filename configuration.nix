@@ -88,6 +88,7 @@
     xclip
     meld
     onefetch
+    neomutt
     neofetch
 
     # Shells
@@ -101,7 +102,6 @@
 
     # Other
     hugo
-    mutt
   ];
 
   # Enable BrowserPass
