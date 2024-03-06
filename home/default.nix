@@ -9,6 +9,7 @@
     ./neovim
     ./shell
     ./mbsync
+    ./msmtp
   ];
     
   home.username = "ouail";
