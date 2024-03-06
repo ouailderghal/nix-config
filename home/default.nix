@@ -6,7 +6,6 @@
     ./i3
     ./git
     ./lf
-    ./texlive
     ./neovim
     ./shell
   ];
