@@ -1,5 +1,13 @@
 { config, pkgs, ...}:
+let
+  username = "ouail";
+in 
 {
    virtualisation.virtualbox.host.enable = true;
-   users.extraGroups.vboxusers.members = [ "ouail" ];
+   virtualisation.docker.enable = true;
+
+   users.extraGroups = {
+      vboxusers.members = [ username ];
+      docker.members = [ username ];
+   };
 }
