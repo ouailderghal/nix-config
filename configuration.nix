@@ -129,6 +129,9 @@
     hunspell
     hunspellDicts.en_US
     hunspellDicts.fr-any
+
+    # Other
+    hugo
   ];
 
   # Enable BrowserPass
