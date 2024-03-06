@@ -28,6 +28,7 @@ let
     ll = "ls -lah";
     q = "exit";
     e = "nvim";
+    m = "${pkgs.neomutt}/bin/neomutt";
     rf = "rm -rf";
     systemctl = "sudo systemctl";
     ss = "sudo systemctl";
