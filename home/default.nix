@@ -10,6 +10,7 @@
     ./shell
     ./mbsync
     ./msmtp
+    ./neomutt
   ];
     
   home.username = "ouail";
