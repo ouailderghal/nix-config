@@ -104,6 +104,7 @@
     go
     gopls
     python3
+    gnumake
     
     # Command-line tools
     git
