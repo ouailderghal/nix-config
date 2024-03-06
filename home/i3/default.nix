@@ -54,6 +54,7 @@ in {
 
       assigns = {
         "1" = [{ class = "^Brave-browser$"; }];
+        "3" = [{ class = "^Zotero$"; }];
         "10" = [
           { class = "^discord$"; }
           { class = "^TelegramDesktop$"; }
