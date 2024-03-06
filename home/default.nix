@@ -8,6 +8,7 @@
     ./lf
     ./neovim
     ./shell
+    ./mbsync
   ];
     
   home.username = "ouail";
