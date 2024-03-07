@@ -6,22 +6,4 @@
 
   networking.hostName = "tokyo"; 
   networking.networkmanager.enable = true;
-
-  # List packages installed in system profilea
-  environment.systemPackages = with pkgs; [
-
-    # Command-line tools
-    git
-    tree
-    pass
-    tig
-    wget
-    zip
-    unzip
-    meld
-    onefetch
-    neomutt
-    neofetch
-  ];
-
 }

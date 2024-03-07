@@ -5,9 +5,11 @@
     nodejs
     go
     gopls
-    python3
+    python311
     gnumake
     rustup
-  ];
 
+    meld
+    onefetch
+  ];
 }
