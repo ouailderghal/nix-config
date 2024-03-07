@@ -3,5 +3,6 @@
   imports = [
     ./xorg.nix
     ./virtualisation.nix
+    ./bootloader.nix
   ];
 }
