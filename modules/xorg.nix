@@ -38,6 +38,7 @@
         copyq
         nitrogen
         rofi
+        lxappearance
      ];
     };
   };
