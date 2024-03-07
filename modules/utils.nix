@@ -8,5 +8,6 @@
     gimp
     inkscape
     mypaint
+    simplescreenrecorder
   ];
 }
