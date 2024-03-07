@@ -14,5 +14,6 @@
     ./cli.nix
     ./networking.nix
     ./communication.nix
+    ./fonts.nix
   ];
 }

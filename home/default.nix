@@ -20,9 +20,6 @@
 
     packages = with pkgs; [
       zotero
-      
-      # Nerd Fonts
-      (pkgs.nerdfonts.override { fonts = [ "UbuntuMono" "JetBrainsMono" ]; })
     ];
   };
 
