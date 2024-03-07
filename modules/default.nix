@@ -4,5 +4,6 @@
     ./xorg.nix
     ./virtualisation.nix
     ./bootloader.nix
+    ./locale.nix
   ];
 }

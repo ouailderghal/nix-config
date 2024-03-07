@@ -3,14 +3,8 @@
   imports = [
     ./hardware-configuration.nix
   ];
-
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
   # Hostname.
   networking.hostName = "tokyo"; 
-
   # Enable networking
   networking.networkmanager.enable = true;
 
