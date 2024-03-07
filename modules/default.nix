@@ -7,5 +7,6 @@
     ./locale.nix
     ./sound.nix
     ./browser.nix
+    ./utils.nix
   ];
 }

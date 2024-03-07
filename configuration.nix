@@ -21,7 +21,7 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # List packages installed in system profile.
+  # List packages installed in system profilea
   environment.systemPackages = with pkgs; [
     # Programming tools
     gcc
@@ -49,12 +49,6 @@
 
     # Shells
     zsh
-
-    # LibreOffice
-    libreoffice-qt
-    hunspell
-    hunspellDicts.en_US
-    hunspellDicts.fr-any
 
     # Other
     hugo
