@@ -1,7 +1,4 @@
 { config, pkgs, ... }:
 {
-  networking = {
-    hostName = "tokyo";
-    networkmanager.enable = true;
-  };
+  networking.networkmanager.enable = true;
 }
