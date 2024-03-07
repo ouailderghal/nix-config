@@ -8,5 +8,6 @@
     ./sound.nix
     ./browser.nix
     ./utils.nix
+    ./agent.nix
   ];
 }
