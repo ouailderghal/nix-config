@@ -9,5 +9,7 @@
     zip
     unzip
     neofetch
+    gh
+    glab
   ];
 }

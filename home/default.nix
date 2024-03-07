@@ -19,9 +19,6 @@
     stateVersion = "23.11";
 
     packages = with pkgs; [
-      gh
-      glab
-      tree
       discord
       telegram-desktop
       zotero
