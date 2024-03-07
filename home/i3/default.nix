@@ -61,6 +61,19 @@ in {
         ];
       };
 
+      floating = {
+        criteria = [
+          { class = "^Pcmanfm$"; }
+          { class = "^Thunar$"; }
+          { class = "^Xfce4-appfinder$"; }
+          { class = "^Pavucontrol$"; }
+          { class = "^Lxappearance$"; }
+          { class = "^Nitrogen$"; }
+          { class = "^copyq$"; }
+          { class = "^SimpleScreenRecorder$"; }
+        ];
+      };
+
       keybindings = lib.mkOptionDefault {
         "${mod}+d" = "exec ${pkgs.dmenu}/bin/dmenu_run";
 
