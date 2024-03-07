@@ -9,5 +9,6 @@
     ./browser.nix
     ./utils.nix
     ./agent.nix
+    ./user.nix
   ];
 }

@@ -11,12 +11,6 @@
   # Enable CUPS to print documents.
   services.printing.enable = false;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.ouail = {
-    isNormalUser = true;
-    description = "Ouail Derghal";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
-  };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
