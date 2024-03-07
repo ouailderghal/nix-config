@@ -11,22 +11,23 @@
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: {
-    nixosConfigurations.tokyo = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
+    nixosConfigurations = {
+      rome = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ./hosts/rome
+          ./configuration.nix
+          ./modules
 
-      modules = [
-        ./hardware-configuration.nix
-        ./configuration.nix
-        ./modules
-
-        home-manager.nixosModules.home-manager {
-          home-manager = {
-            useGlobalPkgs = true;
-            useUserPackages = true;
-            users.ouail = import ./home;
-          };
-        }
-      ];
+          home-manager.nixosModules.home-manager {
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              users.ouail = import ./home;
+            };
+          }
+        ];
+      };
     };
   };
 }
