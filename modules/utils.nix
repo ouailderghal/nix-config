@@ -9,5 +9,6 @@
     inkscape
     mypaint
     simplescreenrecorder
+    vlc
   ];
 }
