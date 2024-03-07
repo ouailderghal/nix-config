@@ -19,8 +19,6 @@
     stateVersion = "23.11";
 
     packages = with pkgs; [
-      discord
-      telegram-desktop
       zotero
       
       # Nerd Fonts

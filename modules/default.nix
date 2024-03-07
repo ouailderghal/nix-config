@@ -13,5 +13,6 @@
     ./dev.nix
     ./cli.nix
     ./networking.nix
+    ./communication.nix
   ];
 }
