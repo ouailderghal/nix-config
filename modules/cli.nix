@@ -11,5 +11,6 @@
     neofetch
     gh
     glab
+    htop-vim
   ];
 }
