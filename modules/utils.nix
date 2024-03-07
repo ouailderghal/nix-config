@@ -10,5 +10,6 @@
     mypaint
     simplescreenrecorder
     vlc
+    papirus-icon-theme
   ];
 }
