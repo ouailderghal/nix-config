@@ -29,6 +29,8 @@
       fonts = [ "UbuntuMono" ]; 
     })
   ];
+      # Nerd Fonts
+      (pkgs.nerdfonts.override { fonts = [ "UbuntuMono" "JetBrainsMono" ]; })
 
   programs.home-manager.enable = true;
   home.stateVersion = "23.11";
