@@ -4,5 +4,6 @@
     discord
     telegram-desktop
     signal-desktop
+    hexchat
   ];
 }
