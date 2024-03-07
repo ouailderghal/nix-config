@@ -12,5 +12,6 @@
     vlc
     papirus-icon-theme
     zathura
+    evince
   ];
 }
