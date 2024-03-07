@@ -58,6 +58,7 @@ in {
         "10" = [
           { class = "^discord$"; }
           { class = "^TelegramDesktop$"; }
+          { class = "^Hexchat$"; }
         ];
       };
 
