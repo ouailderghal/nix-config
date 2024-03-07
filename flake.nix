@@ -12,18 +12,21 @@
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: {
     nixosConfigurations.tokyo = nixpkgs.lib.nixosSystem {
-    system = "x86_64-linux";
-    modules = [
-      ./hardware-configuration.nix
-      ./configuration.nix
-      ./modules
+      system = "x86_64-linux";
 
-      home-manager.nixosModules.home-manager {
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-          home-manager.users.ouail = import ./home;
-      }
-    ];
+      modules = [
+        ./hardware-configuration.nix
+        ./configuration.nix
+        ./modules
+
+        home-manager.nixosModules.home-manager {
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            users.ouail = import ./home;
+          };
+        }
+      ];
     };
   };
 }

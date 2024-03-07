@@ -1,4 +1,4 @@
-{ config, pkgs, ...}:
+{ config, pkgs, ... }:
 {
   imports = [
     ./alacritty
@@ -12,26 +12,25 @@
     ./msmtp
     ./neomutt
   ];
-    
-  home.username = "ouail";
-  home.homeDirectory = "/home/ouail";
 
-  home.packages = with pkgs; [
-    gh
-    glab
-    brave
-    tree
-    discord
-    telegram-desktop
-    zotero
-  
-    (pkgs.nerdfonts.override { 
-      fonts = [ "UbuntuMono" ]; 
-    })
-  ];
+  home = {
+    username = "ouail";
+    homeDirectory = "/home/ouail";
+    stateVersion = "23.11";
+
+    packages = with pkgs; [
+      gh
+      glab
+      brave
+      tree
+      discord
+      telegram-desktop
+      zotero
+      
       # Nerd Fonts
       (pkgs.nerdfonts.override { fonts = [ "UbuntuMono" "JetBrainsMono" ]; })
+    ];
+  };
 
   programs.home-manager.enable = true;
-  home.stateVersion = "23.11";
 }
