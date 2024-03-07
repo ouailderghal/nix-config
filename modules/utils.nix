@@ -11,5 +11,6 @@
     simplescreenrecorder
     vlc
     papirus-icon-theme
+    zathura
   ];
 }
