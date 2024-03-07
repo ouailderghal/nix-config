@@ -1,19 +1,10 @@
 { config, pkgs, ... }:
 {
-  imports = [
-    ./hardware-configuration.nix
-  ];
-  # Hostname.
-  networking.hostName = "tokyo"; 
-  # Enable networking
-  networking.networkmanager.enable = true;
-
-  # Enable CUPS to print documents.
-  services.printing.enable = false;
-
-
-  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  networking.hostName = "tokyo"; 
+  networking.networkmanager.enable = true;
+  services.printing.enable = false;
 
   # List packages installed in system profilea
   environment.systemPackages = with pkgs; [
@@ -35,17 +26,10 @@
     wget
     zip
     unzip
-    xclip
     meld
     onefetch
     neomutt
     neofetch
-
-    # Shells
-    zsh
-
-    # Other
-    hugo
   ];
 
   system.stateVersion = "23.11";

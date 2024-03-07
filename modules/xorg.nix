@@ -29,6 +29,7 @@
       enable = true;
 
       extraPackages = with pkgs; [
+        xclip
         dmenu
         i3lock
         i3blocks
@@ -36,6 +37,7 @@
         arandr
         copyq
         nitrogen
+        rofi
      ];
     };
   };
