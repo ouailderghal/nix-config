@@ -17,10 +17,6 @@
     username = "ouail";
     homeDirectory = "/home/ouail";
     stateVersion = "23.11";
-
-    packages = with pkgs; [
-      zotero
-    ];
   };
 
   programs.home-manager.enable = true;

@@ -15,5 +15,6 @@
     ./networking.nix
     ./communication.nix
     ./fonts.nix
+    ./research.nix
   ];
 }
