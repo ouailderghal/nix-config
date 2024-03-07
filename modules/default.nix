@@ -6,5 +6,6 @@
     ./bootloader.nix
     ./locale.nix
     ./sound.nix
+    ./browser.nix
   ];
 }

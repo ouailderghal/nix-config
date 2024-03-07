@@ -21,7 +21,6 @@
     packages = with pkgs; [
       gh
       glab
-      brave
       tree
       discord
       telegram-desktop
