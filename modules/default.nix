@@ -11,5 +11,7 @@
     ./agent.nix
     ./user.nix
     ./dev.nix
+    ./cli.nix
+    ./networking.nix
   ];
 }
