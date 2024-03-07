@@ -10,5 +10,6 @@
     ./utils.nix
     ./agent.nix
     ./user.nix
+    ./dev.nix
   ];
 }
