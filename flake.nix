@@ -28,6 +28,23 @@
           }
         ];
       };
+
+      palermo = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ./hosts/palermo
+          ./configuration.nix
+          ./modules
+
+          home-manager.nixosModules.home-manager {
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              users.ouail = import ./home;
+            };
+          }
+        ];
+      };
     };
   };
 }
