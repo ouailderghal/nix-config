@@ -54,7 +54,10 @@ in {
 
       assigns = {
         "1" = [{ class = "^Brave-browser$"; }];
-        "3" = [{ class = "^Zotero$"; }];
+        "3" = [
+          { class = "^Zotero$"; }
+          { class = "^org.jabref.gui.MainApplication$"; }
+        ];
         "10" = [
           { class = "^discord$"; }
           { class = "^TelegramDesktop$"; }
