@@ -69,7 +69,7 @@ in
 
       font = rec {
         normal.family = "JetBrainsMono NFM Medium";
-        size = 11;
+        size = 9;
         bold = { style = "Medium"; };
       };
 
