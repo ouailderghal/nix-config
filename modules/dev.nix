@@ -8,11 +8,11 @@
     python311
     gnumake
     rustup
-
     meld
     onefetch
     vagrant
     ansible
     ansible-lint
+    google-cloud-sdk
   ];
 }
