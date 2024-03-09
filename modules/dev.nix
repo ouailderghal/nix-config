@@ -12,5 +12,7 @@
     meld
     onefetch
     vagrant
+    ansible
+    ansible-lint
   ];
 }
