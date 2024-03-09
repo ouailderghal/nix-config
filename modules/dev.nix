@@ -11,5 +11,6 @@
 
     meld
     onefetch
+    vagrant
   ];
 }
