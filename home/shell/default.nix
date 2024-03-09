@@ -47,7 +47,7 @@ let
     gb = "git branch";
     gc = "git checkout";
     gcb = "git checkout -b";
-    gp = "git push";
+    gp = "git push origin main";
 
     t = "tmux";
     ta = "tmux a";
