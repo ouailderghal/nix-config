@@ -5,5 +5,6 @@
     telegram-desktop
     signal-desktop
     hexchat
+    weechat
   ];
 }
