@@ -39,6 +39,7 @@
         nitrogen
         rofi
         lxappearance
+        scrot
      ];
     };
   };
