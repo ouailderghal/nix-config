@@ -40,6 +40,7 @@
         rofi
         lxappearance
         scrot
+        xarchiver
      ];
     };
   };
