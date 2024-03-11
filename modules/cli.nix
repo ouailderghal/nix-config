@@ -12,5 +12,6 @@
     gh
     glab
     htop-vim
+    file
   ];
 }
