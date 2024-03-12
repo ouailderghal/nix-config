@@ -68,7 +68,7 @@ in
       colors = gruvboxDark;
 
       font = rec {
-        normal.family = "JetBrainsMono NFM Medium";
+        normal.family = "UbuntuMono Nerd Font";
         size = 9;
         bold = { style = "Medium"; };
       };
