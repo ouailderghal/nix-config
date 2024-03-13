@@ -13,6 +13,7 @@
     papirus-icon-theme
     zathura
     evince
+    okular
     gnome.gnome-clocks
     drawio
   ];
