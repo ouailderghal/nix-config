@@ -6,5 +6,6 @@
     signal-desktop
     hexchat
     weechat
+    thunderbird
   ];
 }
