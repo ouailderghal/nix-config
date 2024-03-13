@@ -14,5 +14,6 @@
     zathura
     evince
     gnome.gnome-clocks
+    drawio
   ];
 }
