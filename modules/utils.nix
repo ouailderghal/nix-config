@@ -13,5 +13,6 @@
     papirus-icon-theme
     zathura
     evince
+    gnome.gnome-clocks
   ];
 }
