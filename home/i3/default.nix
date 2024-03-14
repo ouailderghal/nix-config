@@ -62,6 +62,7 @@ in {
           { class = "^discord$"; }
           { class = "^TelegramDesktop$"; }
           { class = "^Hexchat$"; }
+          { class = "^Signal$"; }
         ];
       };
 
