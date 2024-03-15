@@ -53,11 +53,19 @@ in {
       ];
 
       assigns = {
-        "1" = [{ class = "^Brave-browser$"; }];
+        "1" = [
+          { class = "^Brave-browser$"; }
+        ];
+
         "3" = [
           { class = "^Zotero$"; }
           { class = "^org.jabref.gui.MainApplication$"; }
         ];
+
+        "9" = [
+          { class = "^thunderbird$"; }
+        ];
+
         "10" = [
           { class = "^discord$"; }
           { class = "^TelegramDesktop$"; }
