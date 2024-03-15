@@ -15,5 +15,6 @@
     ansible
     ansible-lint
     google-cloud-sdk
+    fzf
   ];
 }
