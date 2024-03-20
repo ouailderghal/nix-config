@@ -14,6 +14,7 @@
     (pkgs.nerdfonts.override {
       fonts = [
         "UbuntuMono"
+        "FiraMono"
         "JetBrainsMono" 
       ]; 
     })
