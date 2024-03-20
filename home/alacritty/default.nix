@@ -39,7 +39,7 @@ in
       colors = theme;
 
       font = rec {
-        normal.family = "UbuntuMono Nerd Font";
+        normal.family = "FiraMono Nerd Font";
         size = 9;
         bold = { style = "Medium"; };
       };
