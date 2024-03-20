@@ -34,7 +34,7 @@ in
     enable = true;
 
     settings = {
-      shell.program = "zsh";
+      shell.program = "bash";
 
       colors = theme;
 
