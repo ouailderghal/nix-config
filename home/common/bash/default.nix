@@ -57,7 +57,7 @@ in
       historyFile = "${config.xdg.dataHome}/bash/history";
       historyFileSize = historySize;
       bashrcExtra = ''
-        export BROWSER=${pkgs.brave}/bin/brave
+        export BROWSER=${pkgs.firefox}/bin/firefox
         export MANPATH="/usr/local/man:$MANPATH"
         export LANG=en_US.UTF-8
         export ARCHFLAGS="-arch x86_64"
