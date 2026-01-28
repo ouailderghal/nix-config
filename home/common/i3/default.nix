@@ -3,7 +3,7 @@ let
   mod = "Mod4";
 
   myFonts = {
-    names = [ "JetBrainsMono Nerd Font Mono" ];
+    names = [ "Hack Nerd Font Mono" ];
     style = "Regular";
     size = 10.0;
   };

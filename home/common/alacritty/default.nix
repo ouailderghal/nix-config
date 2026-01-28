@@ -1,6 +1,6 @@
 { config, pkgs, ...}:
 let
-  myFont = "JetBrainsMono Nerd Font Mono";
+  myFont = "Hack Nerd Font Mono";
 
   themeXterm = {
     primary = {
