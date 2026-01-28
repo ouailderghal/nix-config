@@ -33,7 +33,7 @@
             "URLTemplate" = "https://search.nixos.org/packages?channel=unstable&query={searchTerms}";
             "Method" = "GET";
             "IconURL" = "https://nixos.org/favicon.ico";
-            "Alias" = "@nix";
+            "Alias" = "@nixpkg";
             "Description" = "Search in nixpkgs (unstable)";
           }
           {
