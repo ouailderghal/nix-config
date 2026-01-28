@@ -28,6 +28,15 @@
 		signal-desktop
 		dropbox
 
+		neomutt
+		isync
+		msmtp
+		mailcap
+		notmuch
+		vdirsyncer
+		khard
+		khal
+
 		# docs & multimedia
 		zotero
 		jabref
