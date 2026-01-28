@@ -39,6 +39,8 @@
 		zotero
 		jabref
 		evince
+		qpdfview
+		zathura
 		libreoffice
 		hunspell
     hunspellDicts.en_US
