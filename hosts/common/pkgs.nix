@@ -19,8 +19,6 @@
     piper
 
 		# web & communication
-		firefox
-		brave
 		thunderbird
 		hexchat
 		weechat

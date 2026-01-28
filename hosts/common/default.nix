@@ -6,6 +6,7 @@
 		./pkgs.nix
 		./tex.nix
 		./virt.nix
+		./firefox.nix
 	];
 
 	system.stateVersion = "25.05";
