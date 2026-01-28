@@ -34,7 +34,7 @@
           };
         };
 
-        condition = "gitdir:~/Projects/PHD/";
+        condition = "gitdir:~/Projects/imt/";
       }
     ];
   };

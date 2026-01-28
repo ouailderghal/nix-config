@@ -9,7 +9,10 @@
 		fastfetch
 		killall
 		fzf
-    tig
+		tig
+		lf
+		stow
+		pass
 
 		# tools
 		openvpn
