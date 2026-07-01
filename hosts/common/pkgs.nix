@@ -14,6 +14,13 @@
 		stow
 		pass
 
+		# terminal / shell / editors
+		alacritty
+		neovim
+		vim
+		tmux
+		i3status
+
 		# tools
 		openvpn
 		openvpn3
