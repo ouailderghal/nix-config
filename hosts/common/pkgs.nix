@@ -12,30 +12,33 @@
 		tig
 		lf
 		stow
-		pass
 
 		# terminal / shell / editors
 		alacritty
 		neovim
 		vim
 		tmux
-		i3status
+    zsh
 
-		# tools
-		openvpn
-		openvpn3
+		# security & passwords
+		pass
 		keepassxc
 		seahorse
-    piper
+
+		# networking
+		openvpn
+		openvpn3
+
+		# hardware
+		piper
 
 		# web & communication
 		thunderbird
-		hexchat
-		weechat
 		discord
 		signal-desktop
 		dropbox
 
+		# mail & calendar
 		neomutt
 		isync
 		msmtp
@@ -45,18 +48,19 @@
 		khard
 		khal
 
-		# docs & multimedia
+		# docs
 		zotero
 		jabref
 		evince
-		qpdfview
 		zathura
 		libreoffice
 		hunspell
-    hunspellDicts.en_US
-    hunspellDicts.fr-any
+		hunspellDicts.en_US
+		hunspellDicts.fr-any
 		drawio
 		xournalpp
+
+		# multimedia
 		gimp
 		inkscape
 		mypaint
@@ -71,7 +75,9 @@
 		go
 		gopls
 		python313
-		jdk
+		jdk25
+		maven
+		gradle
 		nodejs
 		meld
 		vagrant

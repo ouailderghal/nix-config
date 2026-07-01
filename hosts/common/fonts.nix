@@ -9,7 +9,6 @@
 
     nerd-fonts.fira-code
     nerd-fonts.jetbrains-mono
-    nerd-fonts.iosevka
     nerd-fonts.hack
   ];
 }
