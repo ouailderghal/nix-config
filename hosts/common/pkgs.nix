@@ -12,6 +12,7 @@
 		tig
 		lf
 		stow
+		bat
 
 		# terminal / shell / editors
 		alacritty
@@ -83,5 +84,7 @@
 		ansible
 		ansible-lint
 		gh
+		claude-code
+		kubectl
 	];
 }
