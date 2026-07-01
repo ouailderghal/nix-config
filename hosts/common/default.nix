@@ -27,6 +27,8 @@
 		enableSSHSupport = false;
 	};
 
+	programs.zsh.enable = true;
+
   security.pam.services.lightdm.enableGnomeKeyring = true;
   programs.ssh.startAgent = true;
 
@@ -68,5 +70,6 @@
 		isNormalUser = true;
 		description = "Ouail Derghal";
 		extraGroups = [ "networkmanager" "wheel" ];
+		shell = pkgs.zsh;
 	};
 }

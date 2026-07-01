@@ -18,7 +18,6 @@
 		neovim
 		vim
 		tmux
-    zsh
 
 		# security & passwords
 		pass
